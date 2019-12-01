@@ -26,7 +26,7 @@ Given the nature of the target variable (almost 50% of data is 0), I decided to 
 - Phase2: Predict as Regression problem
     - Extracting all non-zero `Y` data
     - Splitting into `test` and `train` sets
-    - Feature Selection (Wrapper Method)
+    - Feature Selection (Univariate Filter Method)
     - KCrossfold Validation to get best performing model
     - Grid Search on the RandomForestRegressor model for tuning the hyperparameter
     - Predict on the test data
